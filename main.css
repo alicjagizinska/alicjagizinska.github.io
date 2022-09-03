@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid aliceblue;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.navigation h1 {
+    float: left;
+    padding-left: 115px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-links {
+    float: right;
+    padding-right: 115px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navigation a:visited, .nav-links a:link {
+    color: aliceblue;
+}
+
+.nav-links > a:hover {
+    border-bottom: 1px solid aliceblue;
+}
+
+.container {
+    height: 100%;
+    padding-top: 150px;
+}
+
+/* .main > div {
+    margin-bottom: 90px;
+} */
+
+.main {
+    height: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-35%);
+    z-index: -1;
+}
+
+.about img {
+    width: 35%;
+    float: left;
+}
+
+.about p {
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.about h2, .skills h2, .portfolio-section h2 {
+    border-bottom: 1px solid aliceblue;
+    width: 26%;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.about ul {
+    list-style-type: "— ";
+}
+
+.about-content {
+    float: left;
+    padding-left: 23px;
+    box-sizing: border-box;
+    width: 65%;
+}
+
+.about-content > h2 {
+    margin-top: 0;
+}
+
+.skills {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-section {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-column {
+    width: 50%;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio-column-left {
+    padding-right: 12px;
+}
+
+.portfolio-column-right {
+    padding-left: 12px;
+}
+
+.portfolio-item {
+    width: 100%;
+    text-align: center;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+a.anchor {
+    visibility: hidden;
+    display: block;
+    position: relative;
+    top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+}
