@@ -39,7 +39,7 @@ body {
     margin-left: 15px;
 }
 
-.navigation a:visited, .nav-links a:link {
+a:visited, a:link {
     color: aliceblue;
 }
 
